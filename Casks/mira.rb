@@ -3,13 +3,13 @@
 # Mira Homebrew Cask template.
 #
 # The CI job `homebrew-tap` in .github/workflows/pipeline.yml reads this file,
-# substitutes 0.9.15 and a03963d3a3925dea1cebdbcb0fd1073adf4d9a4fb3b475cfc6022cd8dd8fb1ae, and pushes the rendered result to
+# substitutes 0.9.15 and 60f9644c0820a696fc663a2e99a3e72230e2c65874a92129830632c1ae45f95f, and pushes the rendered result to
 # hello-yunshu/homebrew-mira at Casks/mira.rb. Do not edit those two tokens by
 # hand; the rest of the cask body can be adjusted here and will propagate on
 # the next release.
 cask "mira" do
   version "0.9.15"
-  sha256 "a03963d3a3925dea1cebdbcb0fd1073adf4d9a4fb3b475cfc6022cd8dd8fb1ae"
+  sha256 "60f9644c0820a696fc663a2e99a3e72230e2c65874a92129830632c1ae45f95f"
 
   url "https://github.com/hello-yunshu/mira-mouse/releases/download/app/v#{version}/Mira_macOS_#{version}_aarch64.dmg"
   name "Mira"
